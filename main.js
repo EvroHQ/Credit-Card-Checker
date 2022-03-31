@@ -37,6 +37,7 @@ function validateCred(arr) {
     return total % 10 === 0;
 }
 
+
 function findInvalidCards(cards) {
     let invalidCards = [];
     for (let i = 0; i < cards.length; i++) {
